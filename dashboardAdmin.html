@@ -331,34 +331,32 @@
           <!-- Current: "bg-indigo-800 text-white", Default: "text-white hover:bg-indigo-600 hover:bg-opacity-75" -->
           <a href="dashboard.html" class="bg-darkorange text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
             <!-- Heroicon name: outline/home -->
-            <svg class="mr-3 flex-shrink-0 h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-            </svg>
-            Order history
+            Users
           </a>
 
           <a href="dashboardAccount.html" class="text-white hover:bg-darkorange hover:bg-opacity-75 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
             <!-- Heroicon name: outline/users -->
-            <svg class="mr-3 flex-shrink-0 h-6 w-6 text-white hover:text-darkgrey" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-            </svg>
-            Account
+            Categories
           </a>
 
           <a href="dashboardNotification.html" class="text-white hover:bg-darkorange hover:bg-opacity-75 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
             <!-- Heroicon name: outline/folder -->
-            <svg class="mr-3 flex-shrink-0 h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
-            </svg>
-            Notifications
+            Produits
           </a>
 
           <a href="dashboardPayement.html" class="text-white hover:bg-darkorange hover:bg-opacity-75 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
             <!-- Heroicon name: outline/calendar -->
-            <svg class="mr-3 flex-shrink-0 h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-            </svg>
-            Payements
+            Commandes
+          </a>
+
+          <a href="dashboardPayement.html" class="text-white hover:bg-darkorange hover:bg-opacity-75 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+            <!-- Heroicon name: outline/calendar -->
+            Shipping
+          </a>
+
+          <a href="dashboardPayement.html" class="text-white hover:bg-darkorange hover:bg-opacity-75 group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+            <!-- Heroicon name: outline/calendar -->
+            Stats
           </a>
         </nav>
       </div>
@@ -381,175 +379,52 @@
     <main class="flex-1">
       <div class="py-6">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
-          <h1 class="text-2xl font-semibold text-lightbrown">Order history</h1>
-        </div>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
-            <main class="pt-16 pb-14 sm:pt-24 sm:pb-20 sm:px-6 lg:px-8">
-          <div class="max-w-4xl mx-auto">
-            <section aria-labelledby="recent-heading" class="mt-16">
-              <h2 id="recent-heading" class="sr-only">Recent orders</h2>
-      
-              <div class="space-y-16 sm:space-y-24">
-                <div>
-                  <h3 class="sr-only">Order placed on <time datetime="2021-01-22">January 22, 2021</time></h3>
-      
-                  <div class="bg-orange px-4 py-6 sm:rounded-lg sm:p-6 md:flex md:items-center md:justify-between md:space-x-6 lg:space-x-8">
-                    <dl class="divide-y divide-gray-200 space-y-4 text-sm text-white flex-auto md:divide-y-0 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-6 lg:w-1/2 lg:flex-none lg:gap-x-8">
-                      <div class="flex justify-between md:block">
-                        <dt class="font-bold text-white">Order number</dt>
-                        <dd class="md:mt-1">WU88191111</dd>
-                      </div>
-                      <div class="flex justify-between pt-4 md:block md:pt-0">
-                        <dt class="font-bold text-white">Date placed</dt>
-                        <dd class="md:mt-1">
-                          <time datetime="2021-01-22">January 22, 2021</time>
-                        </dd>
-                      </div>
-                      <div class="flex justify-between pt-4 font-bold text-white md:block md:pt-0">
-                        <dt>Total amount</dt>
-                        <dd class="font-medium md:mt-1">$302.00</dd>
-                      </div>
-                    </dl>
-                    <div class="space-y-4 mt-6 sm:flex sm:space-x-4 sm:space-y-0 md:mt-0">
-                      <a href="#" class="w-full flex items-center justify-center bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 md:w-auto">
-                        View Order
-                        <span class="sr-only">WU88191111</span>
-                      </a>
-                      <a href="#" class="w-full flex items-center justify-center bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 md:w-auto">
-                        View Invoice
-                        <span class="sr-only">for order WU88191111</span>
-                      </a>
-                    </div>
+            <div class="px-4 sm:px-6 lg:px-8">
+                <div class="sm:flex sm:items-center">
+                  <div class="sm:flex-auto">
+                    <h1 class="text-xl font-semibold text-white">Users</h1>
+                    <p class="mt-2 text-sm text-white">A list of all the users in your account including their name, title, email and role.</p>
                   </div>
-      
-                  <div class="mt-6 flow-root px-4 sm:mt-10 sm:px-0">
-                    <div class="-my-6 divide-y divide-gray-200 sm:-my-10">
-                      <div class="flex py-6 sm:py-10">
-                        <div class="min-w-0 flex-1 lg:flex lg:flex-col">
-                          <div class="lg:flex-1">
-                            <div class="sm:flex">
-                              <div>
-                                <h4 class="font-bold text-white">Nomad Tumbler</h4>
-                                <p class="hidden mt-2 text-sm text-white sm:block">This durable double-walled insulated tumbler keeps your beverages at the perfect temperature all day long. Hot, cold, or even lukewarm if you&#039;re weird like that, this bottle is ready for your next adventure.</p>
-                              </div>
-                              <p class="mt-1 font-extrabold text-white sm:mt-0 sm:ml-6">$35.00</p>
-                            </div>
-                            <div class="mt-2 flex text-sm font-medium sm:mt-4">
-                              <a href="#" class="text-lightbrown hover:text-orange">View Product</a>
-                              <div class="border-l border-orange ml-4 pl-4 sm:ml-6 sm:pl-6">
-                                <a href="#" class="text-lightbrown hover:text-orange">Buy Again</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="mt-6 font-extrabold text-lightbrown">
-                            <p>Out for delivery</p>
-                          </div>
-                        </div>
-                        <div class="ml-4 flex-shrink-0 sm:m-0 sm:mr-6 sm:order-first">
-                          <img src="https://tailwindui.com/img/ecommerce-images/order-history-page-06-product-01.jpg" alt="Olive drab green insulated bottle with flared screw lid and flat top." class="col-start-2 col-end-3 sm:col-start-1 sm:row-start-1 sm:row-span-2 w-20 h-20 rounded-lg object-center object-cover sm:w-40 sm:h-40 lg:w-52 lg:h-52">
-                        </div>
+                  
+                </div>
+                <div class="mt-8 flex flex-col">
+                  <div class="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                    <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
+                      <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 md:rounded-lg">
+                        <table class="min-w-full divide-y divide-gray-300">
+                          <thead class="bg-gray-50">
+                            <tr>
+                              <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6">Name</th>
+                             
+                              <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Email</th>
+                              
+                              <th scope="col" class="relative py-3.5 pl-3 pr-4 sm:pr-6">
+                                <span class="sr-only">Edit</span>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody class="bg-white">
+                            <!-- Odd row -->
+                            <tr>
+                              <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">Lindsay Walton</td>
+                              <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Front-end Developer</td>
+                              <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">lindsay.walton@example.com</td>
+                              <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">Member</td>
+                              <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
+                                <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit<span class="sr-only">, Lindsay Walton</span></a>
+                              </td>
+                            </tr>
+              
+                            <!-- More people... -->
+                          </tbody>
+                        </table>
                       </div>
-      
-                      <div class="">
-                        <div class="">
-                          <div class="flex py-6 sm:py-10">
-                            <div class="min-w-0 flex-1 lg:flex lg:flex-col">
-                              <div class="lg:flex-1">
-                                <div class="sm:flex">
-                                  <div>
-                                    <h4 class="font-bold text-white">Nomad Tumbler</h4>
-                                    <p class="hidden mt-2 text-sm text-white sm:block">This durable double-walled insulated tumbler keeps your beverages at the perfect temperature all day long. Hot, cold, or even lukewarm if you&#039;re weird like that, this bottle is ready for your next adventure.</p>
-                                  </div>
-                                  <p class="mt-1 font-extrabold text-white sm:mt-0 sm:ml-6">$35.00</p>
-                                </div>
-                                <div class="mt-2 flex text-sm font-medium sm:mt-4">
-                                  <a href="#" class="text-lightbrown hover:text-orange">View Product</a>
-                                  <div class="border-l border-orange ml-4 pl-4 sm:ml-6 sm:pl-6">
-                                    <a href="#" class="text-lightbrown hover:text-orange">Buy Again</a>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="mt-6 font-extrabold text-lightbrown">
-                                <p>Out for delivery</p>
-                              </div>
-                            </div>
-                            <div class="ml-4 flex-shrink-0 sm:m-0 sm:mr-6 sm:order-first">
-                              <img src="https://tailwindui.com/img/ecommerce-images/order-history-page-06-product-01.jpg" alt="Olive drab green insulated bottle with flared screw lid and flat top." class="col-start-2 col-end-3 sm:col-start-1 sm:row-start-1 sm:row-span-2 w-20 h-20 rounded-lg object-center object-cover sm:w-40 sm:h-40 lg:w-52 lg:h-52">
-                            </div>
-                          </div>
                     </div>
                   </div>
                 </div>
-      
-                      <section aria-labelledby="recent-heading" class="mt-16">
-                        <h2 id="recent-heading" class="sr-only">Recent orders</h2>
-                
-                        <div class="space-y-16 sm:space-y-24">
-                          <div>
-                            <h3 class="sr-only">Order placed on <time datetime="2021-01-22">January 22, 2021</time></h3>
-                
-                            <div class="bg-orange px-4 py-6 sm:rounded-lg sm:p-6 md:flex md:items-center md:justify-between md:space-x-6 lg:space-x-8">
-                              <dl class="divide-y divide-gray-200 space-y-4 text-sm text-white flex-auto md:divide-y-0 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-6 lg:w-1/2 lg:flex-none lg:gap-x-8">
-                                <div class="flex justify-between md:block">
-                                  <dt class="font-bold text-white">Order number</dt>
-                                  <dd class="md:mt-1">WU88191111</dd>
-                                </div>
-                                <div class="flex justify-between pt-4 md:block md:pt-0">
-                                  <dt class="font-bold text-white">Date placed</dt>
-                                  <dd class="md:mt-1">
-                                    <time datetime="2021-01-22">January 22, 2021</time>
-                                  </dd>
-                                </div>
-                                <div class="flex justify-between pt-4 font-bold text-white md:block md:pt-0">
-                                  <dt>Total amount</dt>
-                                  <dd class="font-medium md:mt-1">$302.00</dd>
-                                </div>
-                              </dl>
-                              <div class="space-y-4 mt-6 sm:flex sm:space-x-4 sm:space-y-0 md:mt-0">
-                                <a href="#" class="w-full flex items-center justify-center bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 md:w-auto">
-                                  View Order
-                                  <span class="sr-only">WU88191111</span>
-                                </a>
-                                <a href="#" class="w-full flex items-center justify-center bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 md:w-auto">
-                                  View Invoice
-                                  <span class="sr-only">for order WU88191111</span>
-                                </a>
-                              </div>
-                            </div>
-                
-                            <div class="mt-6 flow-root px-4 sm:mt-10 sm:px-0">
-                              <div class="-my-6 divide-y divide-gray-200 sm:-my-10">
-                                <div class="flex py-6 sm:py-10">
-                                  <div class="min-w-0 flex-1 lg:flex lg:flex-col">
-                                    <div class="lg:flex-1">
-                                      <div class="sm:flex">
-                                        <div>
-                                          <h4 class="font-bold text-white">Nomad Tumbler</h4>
-                                          <p class="hidden mt-2 text-sm text-white sm:block">This durable double-walled insulated tumbler keeps your beverages at the perfect temperature all day long. Hot, cold, or even lukewarm if you&#039;re weird like that, this bottle is ready for your next adventure.</p>
-                                        </div>
-                                        <p class="mt-1 font-extrabold text-white sm:mt-0 sm:ml-6">$35.00</p>
-                                      </div>
-                                      <div class="mt-2 flex text-sm font-medium sm:mt-4">
-                                        <a href="#" class="text-lightbrown hover:text-orange">View Product</a>
-                                        <div class="border-l border-orange ml-4 pl-4 sm:ml-6 sm:pl-6">
-                                          <a href="#" class="text-lightbrown hover:text-orange">Buy Again</a>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="mt-6 font-extrabold text-lightbrown">
-                                      <p>Out for delivery</p>
-                                    </div>
-                                  </div>
-                                  <div class="ml-4 flex-shrink-0 sm:m-0 sm:mr-6 sm:order-first">
-                                    <img src="https://tailwindui.com/img/ecommerce-images/order-history-page-06-product-01.jpg" alt="Olive drab green insulated bottle with flared screw lid and flat top." class="col-start-2 col-end-3 sm:col-start-1 sm:row-start-1 sm:row-span-2 w-20 h-20 rounded-lg object-center object-cover sm:w-40 sm:h-40 lg:w-52 lg:h-52">
-                                  </div>
-                                </div>
               </div>
-            </section>
-          </div>
-        </main>
           <div class="py-4">
-            <div class="border-4 border-dashed border-gray-200 rounded-lg h-96"></div>
+            
           </div>
           <!-- /End replace -->
         </div>
